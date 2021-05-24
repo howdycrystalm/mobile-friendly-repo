@@ -5,7 +5,7 @@
   -ms-box-sizing:border-box;
 }
 /* Default Class*/
-.min-example {
+.min-width-example {
   background-color: turquoise;
   width: 100%;
   color: #333;
@@ -14,13 +14,13 @@
 }
 /*First Break Point*/
 @media all and (min-width: 576px) {
-  .min-example {
+  .min-width-example {
     background-color: tomato;
   }
 }
 /*Second Break Point*/
 @media all and (min-width: 768px) {
-  .min-example {
+  .min-width-example {
     max-width: 1000px;
     margin: 0 auto;
     background-color: midnightblue;
