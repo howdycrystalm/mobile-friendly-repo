@@ -52,12 +52,36 @@
   color: oldlace;
   border: 3px solid darkslategrey;
 }
-.item-4 {
+/* ORDER DEMO */
+/* .item-4 {
   order: 3;
 }
 .item-1 {
   order: 4;
+} */
+/* FLEX GROW DEMO */
+/* .item-2 {
+  flex-grow: 1;
+} */
+/*FLEX SHRINK*/
+/* .item-2 {
+  flex-shrink: 1;
+} */
+/*FLEX BASIS*/
+/* .item-2 { */
+  /* distributes rest of space after 680px w viewport */
+  /* flex-basis: 300px; */
+  /*distributes rest of space after 530px w viewport */
+  /* flex-basis: 150px; */
+/* } */
+/* ALIGN-SELF */
+/* .flex-container-example {
+  align-items: center;
 }
+.item-2 {
+  align-self: flex-start;
+} */
+
 /* ---------------------------------------------- */
 /* Media Queries                                  */
 /* ---------------------------------------------- */
