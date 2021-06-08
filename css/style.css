@@ -15,3 +15,17 @@
 .small-thumbnail {
   width: 200px;
 }
+.custom-background {
+  background-color: mediumorchid;
+}
+
+.space-background{
+  background-color: rgb(29, 29, 29);
+  min-width: 80vw;
+  min-height: 200px;
+}
+.box {
+  background-color: lavender;
+  color: black;
+}
+
