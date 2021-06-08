@@ -10,8 +10,29 @@
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg custom-background">
-
+    <!-- 1 -->
+    <nav class="navbar navbar-dark bg-primary navbar-expand-lg custom-background">
+      <!-- 2 -->
+      <a class=”navbar-brand” href="#">
+        <img src="images/homer.jpg" width="30" height="30" alt="" loading="lazy">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- 3 Can use nav-link instead of an unordered list -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      <!-- 4 to get dropdown to work you have to use the <ul> method -->
+          </div>
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+      </div>
     </nav>
     <h1>Spacing Demo</h1>
     <h2>{property}{sides}--{size} for xs</h2>
